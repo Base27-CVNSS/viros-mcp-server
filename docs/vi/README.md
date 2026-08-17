@@ -208,7 +208,13 @@ Xem [Hướng dẫn cài đặt tiếng Việt](cai-dat.md).
 
 Tài liệu upstream chi tiết theo từng client vẫn được giữ tại [`docs/install/`](../install/) để bảo đảm theo sát thay đổi của dự án gốc.
 
-## 10. Tài liệu kỹ thuật liên quan
+## 10. Bộ tài liệu tiếng Việt
+
+- [Cài đặt và kết nối](cai-dat.md)
+- [Kiến trúc hệ thống](kien-truc.md)
+- [Khắc phục sự cố](khac-phuc-su-co.md)
+
+## 11. Tài liệu upstream liên quan
 
 - [Kiến trúc upstream](../architecture.md)
 - [Kiểm thử](../testing.md)
@@ -216,7 +222,7 @@ Tài liệu upstream chi tiết theo từng client vẫn được giữ tại [`
 - [Đóng góp](../contributing.md)
 - [Ví dụ](../../examples/)
 
-## 11. Quy ước thuật ngữ
+## 12. Quy ước thuật ngữ
 
 Không Việt hóa literal trong code. Ví dụ:
 
@@ -228,6 +234,6 @@ ros2 action list
 
 Trong văn bản có thể viết “topic (kênh dữ liệu)”, nhưng không đổi `topic` thành tên khác trong lệnh hoặc API.
 
-## 12. Ghi công
+## 13. Ghi công
 
 Repo này kế thừa mã nguồn và kiến trúc từ [robotmcp/ros-mcp-server](https://github.com/robotmcp/ros-mcp-server). Bản Việt hóa tập trung vào tài liệu và khả năng tiếp cận; quyền tác giả và giấy phép Apache-2.0 của dự án gốc được giữ nguyên.
